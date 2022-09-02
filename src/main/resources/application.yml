@@ -1,0 +1,11 @@
+server:
+  port: 80
+spring:
+  profiles:
+  application:
+    name: PeelsannawMusic
+  datasource:
+    url: jdbc:mysql://localhost:3306/sg_blog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: zzhzzhzzh1
+    driver-class-name: com.mysql.cj.jdbc.Driver
